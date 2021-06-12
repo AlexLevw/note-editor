@@ -1,0 +1,47 @@
+@import "@styles/colors.scss";
+
+.note {
+  height: 34px;
+  margin: 8px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    background-color: #555;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.rightBlock {
+  display: flex;
+}
+
+.editBtn, .removeBtn {
+  border: #aaa 1px solid;
+  border-radius: 3px;
+  color: $light;
+  font-size: .9em;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.editBtn {
+  margin: 0 6px;
+  background-color: #0260E8;
+}
+
+.removeBtn {
+  background-color: #FF0000;
+}
