@@ -1,10 +1,12 @@
 import React from 'react';
+import { Header, Footer } from '@components/index';
 import styles from './App.module.scss';
 
 function App() {
   return (
     <div className={styles.App}>
-      Page
+      <Header />
+      <Footer />
     </div>
   );
 }
