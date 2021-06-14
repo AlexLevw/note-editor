@@ -2,13 +2,17 @@
 
 .note {
   height: 34px;
-  margin: 8px;
+  margin: 8px 0;
   padding: 0 10px;
+  border: 0;
   border-radius: 5px;
   background-color: #444;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: $light;
+  font-size: .9em;
+  cursor: pointer;
 
   &:hover {
     background-color: #555;
@@ -39,9 +43,9 @@
 
 .editBtn {
   margin: 0 6px;
-  background-color: #0260E8;
+  background-color: $blue;
 }
 
 .removeBtn {
-  background-color: #FF0000;
+  background-color: $red;
 }

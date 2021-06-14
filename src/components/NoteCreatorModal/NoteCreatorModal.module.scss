@@ -1,0 +1,174 @@
+@import "@styles/colors.scss";
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: #000000, $alpha: .5);
+}
+
+.main {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $dark;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.closeBtn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  font-size: .9em;
+  font-weight: 600;
+  opacity: .6;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.title, .description {
+  p {
+    margin: 5px 0;
+  }
+
+  input, textarea {
+    width: 100%;
+    display: flex;
+    border: 0;
+    border-radius: 5px;
+    background-color: #444;
+    color: $light;
+    font-size: 1em;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+}
+
+.description {
+  
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}@import "@styles/colors.scss";
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: #000000, $alpha: .5);
+}
+
+.main {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $dark;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.closeBtn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  font-size: .9em;
+  font-weight: 600;
+  opacity: .6;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.title, .description {
+  p {
+    margin: 5px 0;
+  }
+
+  input, textarea {
+    width: 100%;
+    display: flex;
+    border: 0;
+    border-radius: 5px;
+    background-color: #444;
+    color: $light;
+    font-size: 1em;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  textarea {
+    height: 100%;
+    resize: none;
+  }
+}
+
+.description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.createBtn {
+  width: 60px;
+  height: 26px;
+  border: 0;
+  border-radius: 5px;
+  opacity: .8;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
